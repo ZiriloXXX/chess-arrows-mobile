@@ -11,6 +11,14 @@ This extension allows you to draw arrows on Chess.com mobile by emulating right-
 - 🎯 Highlight ideas
 - 📱 Get a desktop-like experience on mobile
 
+## 🕹️ Usage
+
+Tap the mouse icon to enable the extension.
+
+While enabled, your touches emulate right-click interactions, allowing you to draw arrows on the board.
+
+Tap the icon again to disable it.
+
 ## 🎬 Demo
 
 <p align="center">
