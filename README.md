@@ -14,7 +14,7 @@ This extension allows you to draw arrows on Chess.com mobile by emulating right-
 ## 🎬 Demo
 
 <p align="center">
-  <img src="demoextension.gif" width="320">
+  <img src="dm.gif" width="320">
 </p>
 
 ## 🚀 Installation
