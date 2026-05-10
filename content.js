@@ -129,8 +129,8 @@
     button.id = "chess-arrows-toggle";
     button.type = "button";
     button.className = "chess-arrows-native";
-    button.setAttribute("aria-label", "Modo setas");
-    button.title = "Modo setas";
+    button.setAttribute("aria-label", "Arrow mode");
+    button.title = "Arrow mode";
     button.innerHTML = getMouseIconSvg();
     button.dataset.enabled = "false";
     button.addEventListener("click", toggleEnabled);
@@ -163,8 +163,8 @@
     document.documentElement.dataset.chessArrowsEnabled = String(enabled);
     button.dataset.enabled = String(enabled);
     button.setAttribute("aria-pressed", String(enabled));
-    button.title = enabled ? "Modo setas ativo" : "Modo setas";
-    showStatus(enabled ? "Modo setas ativo: arraste de uma casa para outra." : "Modo setas desativado.");
+    button.title = enabled ? "Arrow mode enabled" : "Arrow mode";
+    showStatus(enabled ? "Arrow mode enabled: drag from one square to another." : "Arrow mode disabled.");
   }
 
   function placeButton() {
